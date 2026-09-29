@@ -102,13 +102,17 @@ These values are **outputs of the source project/data pipeline**, not claims abo
 
 ### Final two minutes vs. earlier portion of the 5-minute clutch window
 
-![Clutch window comparison](figures/clutch_window_comparison.png)
+<p align="center">
+  <img src="figures/clutch_window_comparison.png" alt="Clutch window comparison" width="780">
+</p>
 
 The source notebook creates this chart from the already-filtered `clutch_events.parquet` dataset, so it compares the final two minutes with the earlier part of the same five-minute clutch window.
 
 ### Clutch FG% by era
 
-![Clutch FG% by era](figures/clutch_fg_pct_by_era.png)
+<p align="center">
+  <img src="figures/clutch_fg_pct_by_era.png" alt="Clutch FG percent by era" width="780">
+</p>
 
 ## Repository Structure
 
