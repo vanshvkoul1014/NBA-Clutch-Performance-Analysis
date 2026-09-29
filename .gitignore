@@ -1,0 +1,22 @@
+.DS_Store
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# Kaggle/cache files
+.cache/
+
+# Spark local artifacts
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Large/generated data
+processed_data/*
+!processed_data/README.md
+data/*.csv
+data/*.parquet
+*.crc
